@@ -1,0 +1,19 @@
+To run the Flask server using Docker
+
+Build the Docker image => docker build -t my-flask-app
+# choose your app name instead of my-flask-app
+
+Run the Docker container
+docker run -p 5000:5000 my-flask-app
+
+server => http://127.0.0.1:5000
+
+Endpoint:http://127.0.0.1:5000/recommend
+Request type: POST
+Body: raw (JSON)
+
+{
+  "school_ids": [500, 454, 383, 164, 505, 374, 271, 45, 495, 435]
+}
+
+or you can install requirements on your local machine and run the server locally instead of using docker
