@@ -1,0 +1,144 @@
+.Detailspage {
+  padding: 3rem 0;
+}
+
+.Detailspage .container {
+  display: flex;
+  justify-content: center;
+  /* Center the content horizontally */
+  align-items: center;
+}
+
+.Detailspage .left {
+  flex: 2;
+  padding-right: 2rem;
+}
+
+.Detailspage .right {
+  flex: 1;
+  text-align: right;
+}
+
+.Detailspage .right img {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: 20px;
+}
+
+.Detailspage h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.Detailspage p {
+  font-size: 15px;
+  /* Match about p font size */
+  line-height: 30px;
+  /* Match about p line-height */
+  margin-bottom: 20px;
+  /* Match about p margin-bottom */
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.rating-container .star {
+  color: #ccc;
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+.rating-container .star.active {
+  color: #ffd700;
+}
+
+.comment-container {
+  margin-top: 1rem;
+}
+
+.comment-field {
+  width: 100%;
+  height: 100px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  resize: vertical;
+}
+
+.comment-btn {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.school-name {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+.school-details {
+  margin-bottom: 1rem;
+  /* Add some margin-bottom if needed */
+}
+
+/* New rule for smaller school image */
+.Detailspage .left img {
+  max-width: 550px;
+  /* Adjust as desired */
+  height: auto;
+  margin: 0 auto;
+  /* Add margin: 0 auto; to center within .left */
+}
+
+/* Optional: Responsiveness (Adapt as needed) */
+@media screen and (max-width: 768px) {
+  .Detailspage .container {
+    flex-direction: column;
+  }}
+
+.Detailspage p {
+  padding: 0;
+  /* Adjust as needed */
+  }
+
+  /* DetailsPage.css */
+.star-rating {
+  display: inline-block;
+  font-size: 1.5rem;
+}
+
+.star {
+  color: #ccc; /* Default star color */
+}
+
+.star.active {
+  color: #ffc107; /* Active star color */
+}
+
+.visit-link {
+  color: rgb(115, 110, 110); /* Link color */
+  text-decoration: none; /* Remove underline */
+  margin-bottom: 10px; /* Add margin below the link */
+  display: block; 
+}
+
+.visit-link:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+
+.phone-number {
+  margin-top: 10px; /* Add margin above the phone number */
+}
